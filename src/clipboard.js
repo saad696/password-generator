@@ -6,14 +6,18 @@ copyPassword.addEventListener("click", () => {
     document.body.appendChild(el);
     el.select();
     document.execCommand('copy');
+    if( pass.innerText === " "){
+        return;
+    }else{
+        setTimeout(() => {
+            message.style.display = "block"
+        }, 100);
+        setTimeout(() => {
+            message.style.display = "none"
+        }, 2500); 
+    }
     document.body.removeChild(el);
     pass.classList.add("animate__rubberBand");
-    setTimeout(() => {
-        message.style.display = "block"
-    }, 100);
-    setTimeout(() => {
-        message.style.display = "none"
-    }, 2500);    
 });
 
 
