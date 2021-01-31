@@ -19,7 +19,7 @@ or open through this link - https://saad696.github.io/password-generator/
 
 <h4 align="left">Step 4</h4>
 <p align="left">Click on generate password button and your password will be generated above as shown.</p>
-<img align='center' src =https://github.com/saad696/password-generator/blob/master/images/step%205.JPG width = 400><hr>
+<img align='center' src =https://github.com/saad696/password-generator/blob/master/images/step%205.JPG width = 400>
 
 <img align='center' src =https://github.com/saad696/password-generator/blob/master/images/step%205.1.JPG width = 400><hr>
 
